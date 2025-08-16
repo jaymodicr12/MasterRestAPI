@@ -6,4 +6,11 @@ configurations :
 4. add typescript to package.json
 5. setup eslint using command : npm init @eslint/config@latest
 6. installed eslint extension 
+7. added prettier extension and added prettierrc
+8. installed express using : npm i express
+9. installed typescript express : npm i -D @types/express
 
+get started :
+--------------------
+10. added app.ts and setup express will only run server by server.ts
+11. added app.js to server and started server on port 3000
