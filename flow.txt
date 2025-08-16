@@ -14,3 +14,17 @@ get started :
 --------------------
 10. added app.ts and setup express will only run server by server.ts
 11. added app.js to server and started server on port 3000
+12. added "allowImportingTsExtensions": true, to tsconfig.json to get import as ".ts" file
+13. added .env to root and installed env package
+14. installed npm i -D @types/dotenv
+15. added config folder added config.ts and added this code
+---------------------------------------------------
+    import { config as conf } from "dotenv";
+    conf();
+
+    const _config = {
+        port: process.env.PORT,
+    };
+
+    export const config = Object.freeze(_config);
+---------------------------------------------------
