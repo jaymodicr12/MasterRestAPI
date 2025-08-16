@@ -28,3 +28,10 @@ get started :
 
     export const config = Object.freeze(_config);
 ---------------------------------------------------
+
+
+connecting DB :
+--------------------
+16. added db.ts under config folder
+17. added mongodb string to .env
+18. written db connection and also implemented event emmiting functions for future proof connections
