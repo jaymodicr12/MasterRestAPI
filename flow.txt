@@ -4,4 +4,5 @@ configurations :
 2. installed packages like : npm i -D typescript nodemon ts-node @types/node
 3. installed npx tsc --initialized
 4. add typescript to package.json
+5. setup eslint using command : npm init @eslint/config
 
