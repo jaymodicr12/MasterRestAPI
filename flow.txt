@@ -1,3 +1,7 @@
+configurations :
+--------------------
 1. initialized project with npm init
 2. installed packages like : npm i -D typescript nodemon ts-node @types/node
 3. installed npx tsc --initialized
+4. add typescript to package.json
+
