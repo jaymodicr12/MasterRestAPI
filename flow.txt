@@ -35,3 +35,14 @@ connecting DB :
 16. added db.ts under config folder
 17. added mongodb string to .env
 18. written db connection and also implemented event emmiting functions for future proof connections
+
+Moving forward error handling :
+--------------------
+19. will handle the error from a middleware for whole project
+20. normal middleware has 3 (req, res, next)
+21. error handler contains 4 (error, req, res, next)
+22. added package npm i http-errors
+23. added npm i -D @types/http-errors
+
+24. in error handling created a middleware named globalErrorHandler.ts to handlke errors globally
+25. imported inside app.ts
