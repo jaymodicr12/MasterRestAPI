@@ -46,3 +46,7 @@ Moving forward error handling :
 
 24. in error handling created a middleware named globalErrorHandler.ts to handlke errors globally
 25. imported inside app.ts
+26.initial setup is completed till here
+
+Moving forward error handling :
+--------------------
