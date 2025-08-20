@@ -48,5 +48,7 @@ Moving forward error handling :
 25. imported inside app.ts
 26.initial setup is completed till here
 
-Moving forward error handling :
+Created User Controller :
 --------------------
+27. Never Trust Browser/ Client 
+28. three steps are main in handing api : validation, process, response
