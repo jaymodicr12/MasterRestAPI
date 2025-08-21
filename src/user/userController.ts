@@ -12,11 +12,17 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
     }
 
     // Database Call
-    const user = await userModel.findOne({email: email})
-    if(user){
-        const error = createHttpError(400, "User Already Exists with this email")
-        return next(error)
+    const user = await userModel.findOne({ email: email });
+    if (user) {
+        const error = createHttpError(
+            400,
+            "User Already Exists with this email"
+        );
+        return next(error);        
     }
+
+    // Hash Password
+    const hashedPassword = 
     // Process
 
     // Response

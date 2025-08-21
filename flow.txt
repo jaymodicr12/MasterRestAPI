@@ -52,3 +52,8 @@ Created User Controller :
 --------------------
 27. Never Trust Browser/ Client 
 28. three steps are main in handing api : validation, process, response
+
+29. Created UserModel
+30. Added into Controller
+30. started check if user exist give error user exists
+31. start hashing password
